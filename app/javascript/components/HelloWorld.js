@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 const HelloWorld = (props) => {
   return (
     <React.Fragment>
-      Greeting: {props.greeting}
+      {props.greeting}
     </React.Fragment>
   )
 }
