@@ -19,13 +19,17 @@
     "@babel/preset-react": "^7.24.1",
     "@babel/preset-typescript": "^7.24.1",
     "@babel/runtime": "^7.24.5",
+    "@radix-ui/react-slot": "^1.0.2",
     "@types/babel__core": "^7.20.5",
     "@types/webpack": "^5.28.5",
     "babel-loader": "^8.3.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
     "compression-webpack-plugin": "^9.2.0",
     "css-loader": "^7.1.1",
     "css-minimizer-webpack-plugin": "^7.0.0",
     "fork-ts-checker-webpack-plugin": "^9.0.2",
+    "lucide-react": "^0.379.0",
     "mini-css-extract-plugin": "^2.9.0",
     "prop-types": "^15.8.1",
     "react": "^18.3.1",
@@ -33,6 +37,8 @@
     "react-dom": "^18.3.1",
     "shakapacker": "8.0.0",
     "style-loader": "^4.0.0",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss-animate": "^1.0.7",
     "terser-webpack-plugin": "^5.3.10",
     "typescript": "^5.4.5",
     "webpack": "^5.91.0",
@@ -41,6 +47,7 @@
     "webpack-merge": "^5.10.0"
   },
   "devDependencies": {
+    "tailwindcss": "^3.4.3",
     "webpack-dev-server": "^4.15.2"
   }
 }
